@@ -1,0 +1,35 @@
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.ab {
+  position: absolute; }
+
+.re {
+  position: relative; }
+
+.fixed {
+  position: fixed;
+  z-index: 400; }
+
+body {
+  color: #222;
+  background: #f2f2f3;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  min-width: 1190px; }
+
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=common.css.map */
